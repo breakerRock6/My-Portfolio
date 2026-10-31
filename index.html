@@ -1,224 +1,455 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Balaji P | Full Stack AI Developer & Software Engineer</title>
-  <meta name="description" content="Portfolio of Balaji P, a Computer Science graduate and Full Stack AI Developer skilled in React.js, Node.js, Express.js, MongoDB, Python and Java.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Balaji P | Full Stack AI Developer & Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Balaji P, a Computer Science graduate and Full Stack AI Developer skilled in React.js, Node.js, Express.js, MongoDB, Python and Java."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
 
-  <!-- ===== NAVIGATION ===== -->
-  <header class="nav" id="nav">
-    <div class="container nav-inner">
-      <a href="#home" class="logo" aria-label="Balaji P, home">Balaji<span>.</span></a>
-      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i class="fa-solid fa-bars"></i></button>
-      <nav id="menu" class="menu" aria-label="Main">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <!-- ===== HERO ===== -->
-    <section id="home" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-text">
-          <p class="hello">Hi, I'm</p>
-          <h1>Balaji P</h1>
-          <p class="role">Full Stack AI Developer | Software Engineer</p>
-          <p class="intro">Computer Science graduate who builds full stack web applications with React.js, Node.js and MongoDB, and adds AI features such as resume analysis and job recommendations.</p>
-          <div class="btns">
-            <a href="#projects" class="btn primary">View My Work</a>
-            <a href="#contact" class="btn ghost">Contact Me</a>
-          </div>
-          <div class="social">
-            <a href="https://github.com/breakerRock6" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/balaji-pazhanivel" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="mailto:balajipazhanivel6@gmail.com" aria-label="Send email"><i class="fa-solid fa-envelope"></i></a>
-          </div>
-        </div>
-        <!-- Replace the placeholder with your photo: <img src="images/profile.jpg" alt="Balaji P"> -->
-        <div class="photo" id="photo">
-          <div class="photo-ph"><i class="fa-solid fa-user"></i><span>[Add Profile Photo]</span></div>
-        </div>
+    <!-- ===== NAVIGATION ===== -->
+    <header class="nav" id="nav">
+      <div class="container nav-inner">
+        <a href="#home" class="logo" aria-label="Balaji P, home"
+          >Balaji<span>.</span></a
+        >
+        <button
+          class="burger"
+          id="burger"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="menu"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav id="menu" class="menu" aria-label="Main">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <!-- ===== ABOUT ===== -->
-    <section id="about" class="section">
-      <div class="container narrow reveal">
-        <h2>About me</h2>
-        <p>I'm a Computer Science student with a strong foundation in programming, data structures and software development. I enjoy solving complex problems and deploying scalable software solutions.</p>
-        <p>My projects cover campus placement automation, a college website and a nutrition tracker, so I'm comfortable working across the front end, back end and database.</p>
-        <ul class="facts">
-          <li><i class="fa-solid fa-location-dot"></i> Cuddalore, Tamil Nadu</li>
-          <li><i class="fa-solid fa-phone"></i> <a href="tel:+918778820014">8778820014</a></li>
-          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:balajipazhanivel6@gmail.com">balajipazhanivel6@gmail.com</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ===== EDUCATION ===== -->
-    <section id="education" class="section alt">
-      <div class="container narrow reveal">
-        <h2>Education</h2>
-        <div class="card edu">
-          <div>
-            <h3>Bachelor of Engineering, Computer Science and Engineering</h3>
-            <p class="muted">University College of Engineering, Panruti</p>
-            <p class="muted small">Nov 2022 to May 2026</p>
+    <main id="main">
+      <!-- ===== HERO ===== -->
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="hello">Hi, I'm</p>
+            <h1>Balaji P</h1>
+            <p class="role">Full Stack AI Developer | Software Engineer</p>
+            <p class="intro">
+              Computer Science graduate who builds full stack web applications
+              with React.js, Node.js and MongoDB, and adds AI features such as
+              resume analysis and job recommendations.
+            </p>
+            <div class="btns">
+              <a href="#projects" class="btn primary">View My Work</a>
+              <a href="#contact" class="btn ghost">Contact Me</a>
+            </div>
+            <div class="social">
+              <a
+                href="https://github.com/breakerRock6"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub profile"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/balaji-pazhanivel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn profile"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="mailto:balajipazhanivel6@gmail.com"
+                aria-label="Send email"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
           </div>
-          <div class="score"><strong>8.1</strong><span>CGPA out of 10</span></div>
-        </div>
-        <div class="pair">
-          <div class="card"><h3>HSC</h3><p class="big">84.33%</p></div>
-          <div class="card"><h3>SSLC</h3><p class="big">81%</p></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== SKILLS ===== -->
-    <section id="skills" class="section">
-      <div class="container reveal">
-        <h2>Technical skills</h2>
-        <div class="skills">
-          <div class="card"><h3><i class="fa-solid fa-code"></i> Programming</h3><div class="tags"><span>Java</span><span>Python</span><span>C++</span><span>SQL</span></div></div>
-          <div class="card"><h3><i class="fa-solid fa-display"></i> Frontend</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span></div></div>
-          <div class="card"><h3><i class="fa-solid fa-server"></i> Backend</h3><div class="tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span></div></div>
-          <div class="card"><h3><i class="fa-solid fa-database"></i> Databases</h3><div class="tags"><span>MySQL</span><span>MongoDB</span></div></div>
-          <div class="card"><h3><i class="fa-solid fa-robot"></i> AI</h3><div class="tags"><span>Generative AI</span><span>Prompt Engineering</span><span>AI and Emerging Technologies</span></div></div>
-          <div class="card"><h3><i class="fa-solid fa-graduation-cap"></i> Core CS</h3><div class="tags"><span>Data Structures &amp; Algorithms</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span><span>Computer Networks</span></div></div>
-          <div class="card"><h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span></div></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== EXPERIENCE ===== -->
-    <section id="experience" class="section alt">
-      <div class="container narrow reveal">
-        <h2>Experience and training</h2>
-        <div class="timeline">
-          <div class="t-item">
-            <h3>Full Stack AI Web Development</h3>
-            <p class="muted">Macx Technologies</p>
-            <p>Completed training and earned a certification in Full Stack AI Web Development.</p>
-          </div>
-          <div class="t-item">
-            <h3>Robotic Process Automation (RPA)</h3>
-            <p class="muted">Certification</p>
-            <p>Completed an RPA certification.</p>
+          <!-- Replace the placeholder with your photo: <img src="images/profile.jpg" alt="Balaji P"> -->
+          <div class="photo" id="photo">
+            <img src="images/coatsuit image.jpg" alt="Balaji P" />
           </div>
         </div>
-        <p class="note">[Add internship or work experience details here when available: company, role, duration, responsibilities]</p>
-      </div>
-    </section>
+      </section>
 
-    <!-- ===== PROJECTS ===== -->
-    <section id="projects" class="section">
-      <div class="container reveal">
-        <h2>Featured projects</h2>
-        <div class="projects">
-          <article class="card project">
-            <h3>AI-Based Campus Placement and Resume Analysis System</h3>
-            <p>A web-based campus placement platform with AI-powered resume analysis.</p>
-            <ul>
-              <li>Resume analysis and job recommendation features</li>
-              <li>Automated resume screening to improve the recruitment workflow</li>
-            </ul>
-            <div class="tags"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Python</span></div>
-            <div class="links"><a href="https://github.com/breakerRock6?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a><a href="https://ai-placement-readiness-platform-amber.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a></div>
-          </article>
-          <article class="card project">
-            <h3>UCEP Official College Website</h3>
-            <p>The official website of the college, built for students and faculty.</p>
-            <ul>
-              <li>Responsive user interfaces</li>
-              <li>Dynamic content for students and faculty</li>
-            </ul>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span><span>Node.js</span></div>
-            <div class="links"><a href="https://github.com/breakerRock6?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a><a href="https://ucep.edu.in/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a></div>
-          </article>
-          <article class="card project">
-            <h3>Diet and Calorie Tracking Application</h3>
-            <p>A calorie tracker with a dashboard for daily nutrition and health goals.</p>
-            <ul>
-              <li>User authentication</li>
-              <li>Meal logging and calorie calculation</li>
-            </ul>
-            <div class="tags"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span></div>
-            <div class="links"><a href="https://github.com/breakerRock6?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a><a href="https://nutritrack-mern.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a></div>
-          </article>
+      <!-- ===== ABOUT ===== -->
+      <section id="about" class="section">
+        <div class="container narrow reveal">
+          <h2>About me</h2>
+          <p>
+            I'm a Computer Science student with a strong foundation in
+            programming, data structures and software development. I enjoy
+            solving complex problems and deploying scalable software solutions.
+          </p>
+          <p>
+            My projects cover campus placement automation, a college website and
+            a nutrition tracker, so I'm comfortable working across the front
+            end, back end and database.
+          </p>
+          <ul class="facts">
+            <li>
+              <i class="fa-solid fa-location-dot"></i> Cuddalore, Tamil Nadu
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+918778820014">8778820014</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:balajipazhanivel6@gmail.com"
+                >balajipazhanivel6@gmail.com</a
+              >
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ===== CERTIFICATIONS & ACHIEVEMENTS ===== -->
-    <section id="certifications" class="section alt">
-      <div class="container reveal">
-        <h2>Certifications and achievements</h2>
-        <div class="pair">
-          <div class="card">
-            <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
-            <ul class="plain">
-              <li>Full Stack AI Web Development, Macx Technologies</li>
-              <li>Robotic Process Automation (RPA) Certification</li>
-            </ul>
+      <!-- ===== EDUCATION ===== -->
+      <section id="education" class="section alt">
+        <div class="container narrow reveal">
+          <h2>Education</h2>
+          <div class="card edu">
+            <div>
+              <h3>Bachelor of Engineering, Computer Science and Engineering</h3>
+              <p class="muted">University College of Engineering, Panruti</p>
+              <p class="muted small">Nov 2022 to May 2026</p>
+            </div>
+            <div class="score">
+              <strong>8.1</strong><span>CGPA out of 10</span>
+            </div>
           </div>
-          <div class="card">
-            <h3><i class="fa-solid fa-trophy"></i> Achievements</h3>
-            <ul class="plain">
-              <li><strong>Class leadership and event management:</strong> organized an industrial visit.</li>
-              <li><strong>Collaborative communication:</strong> recognized as an active, articulate contributor.</li>
-            </ul>
+          <div class="pair">
+            <div class="card">
+              <h3>HSC</h3>
+              <p class="big">84.33%</p>
+            </div>
+            <div class="card">
+              <h3>SSLC</h3>
+              <p class="big">81%</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ===== CONTACT ===== -->
-    <section id="contact" class="section">
-      <div class="container narrow reveal">
-        <h2>Contact me</h2>
-        <p>Have an opportunity or a question? Send a message or email me directly.</p>
-        <form id="form" novalidate>
-          <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required><small class="err" id="e-name"></small></div>
-          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><small class="err" id="e-email"></small></div>
-          <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" required><small class="err" id="e-subject"></small></div>
-          <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea><small class="err" id="e-message"></small></div>
-          <button class="btn primary" type="submit">Send message</button>
-          <p id="status" class="status" role="status" aria-live="polite"></p>
-          <p class="note">Note: a static site cannot send email by itself. This form opens your email app with the message filled in. For real delivery, connect a backend or a free form service such as Formspree or Netlify Forms.</p>
-        </form>
-      </div>
-    </section>
-  </main>
+      <!-- ===== SKILLS ===== -->
+      <section id="skills" class="section">
+        <div class="container reveal">
+          <h2>Technical skills</h2>
+          <div class="skills">
+            <div class="card">
+              <h3><i class="fa-solid fa-code"></i> Programming</h3>
+              <div class="tags">
+                <span>Java</span><span>Python</span><span>C++</span
+                ><span>SQL</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3><i class="fa-solid fa-display"></i> Frontend</h3>
+              <div class="tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span
+                ><span>React.js</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3><i class="fa-solid fa-server"></i> Backend</h3>
+              <div class="tags">
+                <span>Node.js</span><span>Express.js</span
+                ><span>REST APIs</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3><i class="fa-solid fa-database"></i> Databases</h3>
+              <div class="tags"><span>MySQL</span><span>MongoDB</span></div>
+            </div>
+            <div class="card">
+              <h3><i class="fa-solid fa-robot"></i> AI</h3>
+              <div class="tags">
+                <span>Generative AI</span><span>Prompt Engineering</span
+                ><span>AI and Emerging Technologies</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3><i class="fa-solid fa-graduation-cap"></i> Core CS</h3>
+              <div class="tags">
+                <span>Data Structures &amp; Algorithms</span><span>OOP</span
+                ><span>DBMS</span><span>Operating Systems</span
+                ><span>Computer Networks</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+              <div class="tags">
+                <span>Git</span><span>GitHub</span><span>VS Code</span
+                ><span>Postman</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> Balaji P. All rights reserved.</p>
-      <div class="social">
-        <a href="https://github.com/breakerRock6" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/balaji-pazhanivel" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-      </div>
-    </div>
-  </footer>
+      <!-- ===== EXPERIENCE ===== -->
+      <section id="experience" class="section alt">
+        <div class="container narrow reveal">
+          <h2>Experience and training</h2>
+          <div class="timeline">
+            <div class="t-item">
+              <h3>Full Stack AI Web Development</h3>
+              <p class="muted">Macx Technologies</p>
+              <p>
+                Completed training and earned a certification in Full Stack AI
+                Web Development.
+              </p>
+            </div>
+            <div class="t-item">
+              <h3>Robotic Process Automation (RPA)</h3>
+              <p class="muted">Certification</p>
+              <p>Completed an RPA certification.</p>
+            </div>
+          </div>
+          <p class="note">
+            [Add internship or work experience details here when available:
+            company, role, duration, responsibilities]
+          </p>
+        </div>
+      </section>
 
-  <button id="top" class="top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
-  <script src="script.js"></script>
-</body>
+      <!-- ===== PROJECTS ===== -->
+      <section id="projects" class="section">
+        <div class="container reveal">
+          <h2>Featured projects</h2>
+          <div class="projects">
+            <article class="card project">
+              <h3>AI-Based Campus Placement and Resume Analysis System</h3>
+              <p>
+                A web-based campus placement platform with AI-powered resume
+                analysis.
+              </p>
+              <ul>
+                <li>Resume analysis and job recommendation features</li>
+                <li>
+                  Automated resume screening to improve the recruitment workflow
+                </li>
+              </ul>
+              <div class="tags">
+                <span>React.js</span><span>Node.js</span><span>Express.js</span
+                ><span>MongoDB</span><span>Python</span>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/breakerRock6?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-github"></i> GitHub</a
+                ><a
+                  href="https://ai-placement-readiness-platform-amber.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                  demo</a
+                >
+              </div>
+            </article>
+            <article class="card project">
+              <h3>UCEP Official College Website</h3>
+              <p>
+                The official website of the college, built for students and
+                faculty.
+              </p>
+              <ul>
+                <li>Responsive user interfaces</li>
+                <li>Dynamic content for students and faculty</li>
+              </ul>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>React.js</span><span>Node.js</span>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/breakerRock6?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-github"></i> GitHub</a
+                ><a
+                  href="https://ucep.edu.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                  demo</a
+                >
+              </div>
+            </article>
+            <article class="card project">
+              <h3>Diet and Calorie Tracking Application</h3>
+              <p>
+                A calorie tracker with a dashboard for daily nutrition and
+                health goals.
+              </p>
+              <ul>
+                <li>User authentication</li>
+                <li>Meal logging and calorie calculation</li>
+              </ul>
+              <div class="tags">
+                <span>React.js</span><span>Node.js</span><span>Express.js</span
+                ><span>MongoDB</span>
+              </div>
+              <div class="links">
+                <a
+                  href="https://github.com/breakerRock6?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-brands fa-github"></i> GitHub</a
+                ><a
+                  href="https://nutritrack-mern.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                  demo</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CERTIFICATIONS & ACHIEVEMENTS ===== -->
+      <section id="certifications" class="section alt">
+        <div class="container reveal">
+          <h2>Certifications and achievements</h2>
+          <div class="pair">
+            <div class="card">
+              <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+              <ul class="plain">
+                <li>Full Stack AI Web Development, Macx Technologies</li>
+                <li>Robotic Process Automation (RPA) Certification</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3><i class="fa-solid fa-trophy"></i> Achievements</h3>
+              <ul class="plain">
+                <li>
+                  <strong>Class leadership and event management:</strong>
+                  organized an industrial visit.
+                </li>
+                <li>
+                  <strong>Collaborative communication:</strong> recognized as an
+                  active, articulate contributor.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section id="contact" class="section">
+        <div class="container narrow reveal">
+          <h2>Contact me</h2>
+          <p>
+            Have an opportunity or a question? Send a message or email me
+            directly.
+          </p>
+          <form id="form" novalidate>
+            <div class="field">
+              <label for="name">Name</label
+              ><input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+              /><small class="err" id="e-name"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+              /><small class="err" id="e-email"></small>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label
+              ><input id="subject" name="subject" type="text" required /><small
+                class="err"
+                id="e-subject"
+              ></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label
+              ><textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea
+              ><small class="err" id="e-message"></small>
+            </div>
+            <button class="btn primary" type="submit">Send message</button>
+            <p id="status" class="status" role="status" aria-live="polite"></p>
+            <p class="note">
+              Note: a static site cannot send email by itself. This form opens
+              your email app with the message filled in. For real delivery,
+              connect a backend or a free form service such as Formspree or
+              Netlify Forms.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Balaji P. All rights reserved.</p>
+        <div class="social">
+          <a
+            href="https://github.com/breakerRock6"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/balaji-pazhanivel"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <button id="top" class="top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="script.js"></script>
+  </body>
 </html>
